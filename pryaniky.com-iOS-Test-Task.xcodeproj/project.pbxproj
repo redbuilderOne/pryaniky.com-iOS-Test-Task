@@ -19,6 +19,8 @@
 		FF5CE0B428BBCAF400EC88AF /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0B328BBCAF400EC88AF /* ViewControllerExtension.swift */; };
 		FF5CE0B628BCBCA700EC88AF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0B528BCBCA700EC88AF /* DetailsViewController.swift */; };
 		FF5CE0B828BCC5C900EC88AF /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0B728BCC5C900EC88AF /* Parser.swift */; };
+		FF5CE0BA28BCDA8900EC88AF /* ImageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0B928BCDA8900EC88AF /* ImageParser.swift */; };
+		FF5CE0BD28BCDEF200EC88AF /* UIImageView Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0BC28BCDEF200EC88AF /* UIImageView Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		FF5CE0B328BBCAF400EC88AF /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		FF5CE0B528BCBCA700EC88AF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		FF5CE0B728BCC5C900EC88AF /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		FF5CE0B928BCDA8900EC88AF /* ImageParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageParser.swift; sourceTree = "<group>"; };
+		FF5CE0BC28BCDEF200EC88AF /* UIImageView Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				FF5CE0AA28BBC6AB00EC88AF /* Bindings */,
 				FF5CE0AB28BBC6B500EC88AF /* ViewModel.swift */,
 				FF5CE0B728BCC5C900EC88AF /* Parser.swift */,
+				FF5CE0B928BCDA8900EC88AF /* ImageParser.swift */,
+				FF5CE0BB28BCDEE100EC88AF /* Supporting Files */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				FF5CE0AD28BBC6EB00EC88AF /* Dynamic.swift */,
 			);
 			path = Bindings;
+			sourceTree = "<group>";
+		};
+		FF5CE0BB28BCDEE100EC88AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CE0BC28BCDEF200EC88AF /* UIImageView Extension.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,8 +212,10 @@
 			files = (
 				FF5CE0B028BBC7C100EC88AF /* Result.swift in Sources */,
 				FF5CE09728BBC00000EC88AF /* ViewController.swift in Sources */,
+				FF5CE0BD28BCDEF200EC88AF /* UIImageView Extension.swift in Sources */,
 				FF5CE0B428BBCAF400EC88AF /* ViewControllerExtension.swift in Sources */,
 				FF5CE0B628BCBCA700EC88AF /* DetailsViewController.swift in Sources */,
+				FF5CE0BA28BCDA8900EC88AF /* ImageParser.swift in Sources */,
 				FF5CE0AE28BBC6EB00EC88AF /* Dynamic.swift in Sources */,
 				FF5CE0B828BCC5C900EC88AF /* Parser.swift in Sources */,
 				FF5CE09328BBC00000EC88AF /* AppDelegate.swift in Sources */,
