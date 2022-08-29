@@ -20,6 +20,7 @@
 		FF5CE0B828BCC5C900EC88AF /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0B728BCC5C900EC88AF /* Parser.swift */; };
 		FF5CE0BD28BCDEF200EC88AF /* UIImageView Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0BC28BCDEF200EC88AF /* UIImageView Extension.swift */; };
 		FF5CE0BF28BCE57D00EC88AF /* DataAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0BE28BCE57D00EC88AF /* DataAlert.swift */; };
+		FF5CE0C128BD0EFD00EC88AF /* DetailsViewController Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0C028BD0EFD00EC88AF /* DetailsViewController Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FF5CE0B728BCC5C900EC88AF /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		FF5CE0BC28BCDEF200EC88AF /* UIImageView Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView Extension.swift"; sourceTree = "<group>"; };
 		FF5CE0BE28BCE57D00EC88AF /* DataAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAlert.swift; sourceTree = "<group>"; };
+		FF5CE0C028BD0EFD00EC88AF /* DetailsViewController Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailsViewController Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				FF5CE0B328BBCAF400EC88AF /* ViewControllerExtension.swift */,
 				FF5CE0BC28BCDEF200EC88AF /* UIImageView Extension.swift */,
 				FF5CE0BE28BCE57D00EC88AF /* DataAlert.swift */,
+				FF5CE0C028BD0EFD00EC88AF /* DetailsViewController Extension.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				FF5CE09728BBC00000EC88AF /* ViewController.swift in Sources */,
 				FF5CE0BD28BCDEF200EC88AF /* UIImageView Extension.swift in Sources */,
 				FF5CE0B428BBCAF400EC88AF /* ViewControllerExtension.swift in Sources */,
+				FF5CE0C128BD0EFD00EC88AF /* DetailsViewController Extension.swift in Sources */,
 				FF5CE0B628BCBCA700EC88AF /* DetailsViewController.swift in Sources */,
 				FF5CE0AE28BBC6EB00EC88AF /* Dynamic.swift in Sources */,
 				FF5CE0BF28BCE57D00EC88AF /* DataAlert.swift in Sources */,
